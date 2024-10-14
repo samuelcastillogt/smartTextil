@@ -6,14 +6,15 @@ header{
   width: 100%;
   height: 50px;
   padding: 20px;
-  background-color: red;
+  background-color: #412234;
   font-size: 20px;
   color: white;
 }
 .prod-container{
   width: 700px;
   height: 150px;
-  background-color: blanchedalmond;
+  background-color: #6D466B;
+  color: white;
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -28,7 +29,34 @@ header{
 .low-qut-container{
   width: 200px;
   height: 400px;
-  background-color: pink;
+  background-color: #6D466B;
   border-radius: 10px;
   padding: 20px;
+}
+.side-bar{
+  width: 10%;
+  border-right: 1px solid black;
+  height: 100vh;
+}
+.side-bar ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0;;
+}
+.side-bar li{
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.side-bar li:hover{
+  background-color: #6D466B;
+  color: white
+}
+.side-bar-active{
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
 }
